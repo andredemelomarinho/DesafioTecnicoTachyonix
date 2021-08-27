@@ -1,0 +1,9 @@
+Defeito 1 - Na Tela de Aplicação no Campo Nome
+			Ao inserir um nome já existente é possível continuar a inserção do outros dados
+			Comportamento esperado:
+			Bloquear o acesso a outros campos até o valod do campo nome ser corrigido
+			
+Defeito 2 -	Na Tela de Aplicação no Campo Nome		
+			Não há um limite de tamanho, isso pode abri porta para ataques de Sql Script.	
+			Comportamento esperado:
+			Limitar o campo conforme a restrição no banco de dados, mitigando assim falhas.
